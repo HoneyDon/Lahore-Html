@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  height: 10px;
+  border-collapse: collapse;
+}
+
+.shade:hover{
+  background-color: rgb(231, 216, 75);
+  color: rgb(212, 127, 47);
+  font-weight: bold;
+}
+
+.header th:first-child img {
+  width: 90px;
+  height: 100px;
+}
+
+.header th:nth-child(2) {
+  width: 900px;
+  height: 100px;
+}
+
+.segment-1{
+  width: 100%;
+  height: 98vh;
+  background-image: url(../assets/sohail-chaudhry-ayAl0D6mxHM-unsplash.jpg);
+}
+
+.segment-2{
+  width: 100%;
+  height: 98vh;
+  background-image: url(../assets/segment-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.segment-3{
+  width: 100%;
+  height: 98vh;
+  background-image: url(../assets/segment-3.jpg);
+  background-size: cover;
+  background-position: center; 
+}
